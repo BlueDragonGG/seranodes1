@@ -1,0 +1,11 @@
+# Exported from Render on 2024-04-30T17:44:54Z
+services:
+- type: web
+  name: seranodes1
+  runtime: docker
+  repo: https://github.com/BlueDragonGG/seranodes1
+  plan: free
+  region: frankfurt
+  dockerContext: .
+  dockerfilePath: ./Dockerfile
+version: "1"
